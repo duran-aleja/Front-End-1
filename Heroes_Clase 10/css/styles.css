@@ -1,0 +1,125 @@
+.nomargin {
+    margin: 0px;
+}
+
+.BarraInicio {
+    background: #1CD1B0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    width:100%;
+    height: 38px;
+    margin: 0% !important;
+    box-sizing: border-box;
+}
+
+.Textobarrainicio {
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 0% !important;
+}
+
+h1 {
+    background: #00669F;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    width: 100%;
+    height: 101px;
+    left: 0px;
+    top: 38px;
+    margin-top: -40px;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    margin: 0% !important;
+}
+
+.Textoh1 {
+    padding-left: 28px;
+    padding-top: 28px;
+    padding-bottom: 26px;
+    margin: 0% !important;
+}
+
+.cajaGris {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width: 300px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 0px;
+    margin-top: -31px;
+    margin-bottom: 150px;
+}
+
+.pieDePagina {
+    background: #00669F;
+    width: 100%;
+    color: white;
+    height: 45PX;
+    top: 350px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    font-family: Roboto;
+}
+
+.NombreTarjeta {
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 74px;
+}
+
+.textoTarjetas {
+    width: 267px;
+    height: 113px;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-family: roboto;
+}
+
+.like {
+    position: relative;
+    left: 42px;
+    top: 18px;
+}
+
+.boton {
+    left: 117px;
+    top: 754px;
+    background: #00669F;
+    color: white;
+    margin-bottom: 19px;
+    padding: 20px 60px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+
+.fotoPerfil {
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 81px;
+    margin-top: -64px;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
