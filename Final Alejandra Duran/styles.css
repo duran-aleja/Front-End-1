@@ -1,0 +1,285 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+
+
+body{
+    font-family: 'Be Vietnam Pro' ,sans-serif;
+}
+
+.banner {
+    display: inline-flex;
+    justify-content:  space-around;
+    width: 100%;
+    align-content: center;
+}
+
+
+header{
+    margin-top:50px;
+    width: 1129px;
+    margin-left: 95px;
+    align-content: center;
+}
+
+.flex-ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: center;
+}
+
+.button, button{
+    align-items: center;
+    color: white;
+    background-color:#F3603B;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border: 0;
+    padding: 10px 20px;
+    width: 134px;
+    height: 44px;
+}
+
+
+.main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+#resume{
+    Width: 439px;
+    Height: 386px;
+}
+
+h1 {
+    color: #232C50;
+    font-size: 50px;
+    font-weight: 700;
+    width: 439px;
+    line-height: 66px;
+}
+
+.principalDescriptions {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: static;
+    width: 350px;
+    height: 71px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 157.1%;
+}
+
+#manage{
+    width: 470px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 18px;
+    height: 100%;
+    align-self: stretch;
+}
+
+.textManage{
+    width: 333px;
+    height: 88px;
+}
+
+
+h2 {
+    width: 433px;
+    height: 88px;
+    font-weight: bold;
+    font-size: 36px;
+    color: #232851;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 36px;
+    line-height: 114.6%;
+}
+
+.subTittle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 40px;
+    align-items: center;
+    color: #242E53;
+    font-weight: bold;
+    height: 61px;
+    margin-bottom: 74px;;
+}  
+
+h4 {
+    width: 437px;
+    height: 23px;
+    left: 0px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    margin: 18px 0px;
+}
+
+.bullet-point{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 43px;
+    margin-top: 9px;
+    text-align: center;
+}
+
+.right-gap{
+    margin-right: 28px;
+}
+
+.principalContain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 549px;
+}
+
+.aboutUs{
+    display: flex;
+    flex-direction: row;
+    height: 158px;
+    width: 553px;
+}
+
+.p, #aboutUsText {
+    text-align: justify;
+    color: #B3B2B7;
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.profilePic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 390px;
+    height: 215px;
+    margin: 29px;
+    text-align: center;
+    color: #B9B9C1;
+    font-size: 16px;
+}
+
+h3{
+    position: static;
+    color: #3F4868;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 29px;
+    margin-top: 21px;
+    font-size: 17px;
+}
+
+#orange {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #F3613C;
+    height: 224px;
+
+}
+
+#textOrange {
+    color: white
+}
+
+#whiteButton {
+    color:  #F3613C;
+    background-color: white;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:stretch;
+    background: #1E1E26;
+    color: white;
+    padding: 50px;
+}
+
+a {
+    text-decoration: none 
+}
+
+ul li a{
+    color: #242E52;
+    margin: 10px;
+}
+
+.iconGroup {
+    display: inline-flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.logoAndIcon {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.menu2 ul li a {
+    color: white;
+}
+
+.menu2 ul li {
+    margin: 20px;
+}
+
+#Copyright {
+    color: #8C8C94;
+    background: #1E1E26;
+    display: flex;
+    justify-content: right;
+    margin-top: 100px;
+}
+
+.SearchForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#buscador {
+    border-radius: 50px;
+    width: 201px;
+    height: 44px;
+    margin-right: 10px;
+}
