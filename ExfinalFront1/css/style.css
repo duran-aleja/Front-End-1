@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,200;1,100&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header{
+    padding: 40px 42px;
+}
+
+body{
+    font-family: "Be Vietnam" sans-serif;
+    background-color: white;
+}
+
+.flex-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:row;
+    margin-left: 50px;
+}
+header h1{
+    margin-left: 10px;
+}
+.flex-ul{
+    justify-content: center;
+    gap:20px;
+}
+.flex-menu{
+    flex-grow: 2;
+}
+
+button,.button{
+    align-items: center;
+    padding: 10px;
+    width: 134px;
+    height: 44px;
+    left:1140.54px;
+    top: 65px;
+    background: #F3603B;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: 0px;
+    color: white;
+}
+
+.flex-menu{
+    flex-grow: 2;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+}
+h2 {
+    font-size:45px;
+    display: flex;
+    align-items: center;
+    color: #232C50;
+    width: 400px;
+    height: 190px;
+    align-items: center;
+    letter-spacing: -0.035em;
+    font-weight: bold;
+}
+
+.manage-text{
+    display:flex;
+    align-items: center;
+    color: #000000;
+    font-size: 16px;
+    font-style: normal;
+    width: 280px;
+    height: 90px;
+}
+
+section.flex-section{
+    justify-content: center;
+}
+
+.flex-column{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+article.items-list-text{
+    width: 400px;
+}
+
+.bullet-point{
+    width:35px;
+}
+
+.items-list-article{
+    gap: 40px;
+}
+.item-description{
+    gap:30px
+}
+
+h4{
+    font-size:30px;
+    display: flex;
+    align-items: center;
+    color: #232851;
+    width: 300px;
+    height: 50px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.text-h4{
+    gap: 30px;
+}
+
+.comment{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.color-text-items{
+    color: #B3B2B7;
+}
+
+.separation-title{
+    gap: 40px;
+}
